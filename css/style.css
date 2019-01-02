@@ -1,0 +1,140 @@
+/***************************************************
+ACTINIUM STYLESHEET
+***************************************************/
+
+body {
+	background-color: #2B343A;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+}
+
+label {
+	font-weight: bold;
+}
+
+a > h3 {
+	color: #333;
+}
+
+.logo {
+	margin-left: 38px;
+	margin-right: 18px;
+}
+
+.navbar {
+	margin-bottom: 0px;
+	border: 0px;
+}
+
+.wrapper {
+	background-color: #fff;
+}
+
+.block {
+	padding: 10px 20px;
+	width: 100%;
+}
+
+.shortener {
+	background-image: linear-gradient(135deg,#573e81,#133259 60%,#133259);
+	padding: 10px;
+}
+
+.shortener h1 {
+	color: white;
+	padding: 5px;
+}
+
+.shortener form {
+	padding: 5px;
+}
+
+.link,
+.cos {
+	border-radius: 0px;
+	padding: 25px;
+	text-transform: uppercase;
+}
+
+.link-text,
+.cos a {
+	padding-left: 6px;
+}
+
+.cos {
+	background-color: #D9534F;
+	text-align: center;
+}
+
+.cos a {
+	color: #fff;
+}
+
+.preview {
+	float: left;
+	padding: 2px;
+	margin-top: 22px;
+}
+
+.keywords {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.share-buttons {
+	display: table;
+	margin: 25px 0px;
+}
+
+.rrssb-text {
+	padding: 15px 25px;
+}
+
+.discuss {
+	margin-bottom: 20px;
+}
+
+.divider {
+  height: 1px;
+  width:100%;
+  display:block;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+.logout {
+	margin-top: 25px;
+}
+
+@media screen and (min-width: 960px) {
+		
+	.wrapper {
+		margin: 50px auto;
+		width: 700px;
+		background-color: #fff;
+		border-radius: 5px;
+	}
+
+	.block {
+		padding: 10px 40px;
+	}
+
+	.shortener {
+		border: 7px solid white;
+		border-radius: 7px;
+	}
+
+	.shortener form {
+		padding: 45px;
+	}
+
+	.shortener >p .block {
+		padding: 10px 5px;
+	}
+}
